@@ -1,0 +1,36 @@
+Reference,Value,Part Number,Qty,Description,Temp Rating,Supplier
+U1,STM32G031K8,STM32G031K8T6,1,SOI Cortex-M0+ 64MHz LQFP32 — 125°C rated,+125°C,DigiKey
+U2,ESP32-C3,ESP32-C3-MINI-1,1,Wi-Fi + BLE co-processor for Firebase,+85°C,DigiKey
+U3,MAX31855,MAX31855KASA+,1,K-type thermocouple SPI interface,+125°C,DigiKey
+U4,LM393,LM393DR,1,Dual comparator — hardware OT interlock,+125°C,DigiKey
+U5,IFX9201SG,IFX9201SGXUMA1,1,H-bridge MOSFET driver for solenoid valve,+150°C,Mouser
+S1,MQ-7,MQ-7,1,CO sensor catalytic bead — primary,+50°C (sensor),Amazon/AliExpress
+S2,MQ-135,MQ-135,1,Air quality sensor CO2/CO secondary,+50°C (sensor),AliExpress
+S3,DHT22,AM2302,1,Ambient temperature + humidity sensor,+80°C,DigiKey
+S4,Flame sensor,LM393 + IR photodiode,1,IR flame detection (800-1100nm),+85°C,AliExpress
+S5,K-type TC,CHAL-002,1,K-type thermocouple — surface temperature,+1260°C (tip),Omega
+C1,100nF C0G,C0805C104J5RACTU,10,Decoupling — C0G zero drift,+125°C,DigiKey
+C2,10uF X7R,C0805X106K050T,5,Bulk bypass — X7R (150°C extended),+150°C,DigiKey
+C3,1uF X7R,C0805X105K050T,5,Filter capacitors,+150°C,DigiKey
+C4,22pF C0G,GRM2165C1H220JA01D,2,Crystal load caps — C0G critical,+125°C,DigiKey
+R1,10k thin-film,ERA-6AED103V,10,Pull-ups + MQ sensor load — thin film ±25ppm,+155°C,DigiKey
+R2,100R thin-film,ERA-6AED101V,5,Current limit resistors,+155°C,DigiKey
+R3,1k thin-film,ERA-6AED102V,5,Signal dividers,+155°C,DigiKey
+REL1,24V SPDT relay,G2R-1-DC24,1,Solenoid valve power relay,+70°C (coil),DigiKey
+SOL1,Solenoid valve,VX2120-02-5G1,1,24V DC normally-closed gas valve 1/4",,Specialist gas supplier
+IGN1,Spark igniter,Piezo igniter module,1,Electronic igniter 20kV,,Specialist
+Q1,IRFR9024N,IRFR9024NPBF,1,P-MOSFET solenoid valve drive,+175°C,DigiKey
+Q2,BSS84,BSS84,3,P-MOSFET signal switching,+150°C,DigiKey
+D1,1N4007,1N4007,2,Flyback diodes solenoid + relay,+150°C,DigiKey
+D2,SMBJ5.0A,SMBJ5.0A,4,TVS protection on ADC inputs,+150°C,DigiKey
+LED1,Red LED,VLCS5830,1,Alarm indicator,+85°C,DigiKey
+LED2,Green LED,VLCG5830,1,Status indicator,+85°C,DigiKey
+LED3,Amber LED,VLCY5830,1,Heating indicator,+85°C,DigiKey
+BZ1,Buzzer 5V,CMT-1203-SMT-TR,1,CO alarm buzzer surface mount,+85°C,DigiKey
+Y1,8MHz crystal,ABMM-8.000MHZ,1,STM32 HSE crystal,+85°C,DigiKey
+J1,Screw terminal,691201710002,4,Power + valve output terminals,+105°C,DigiKey
+J2,SWD header,2.54mm 4-pin,1,STM32 programming header,,DigiKey
+PS1,24V SMPS,HLK-10M24,1,Mains to 24V 10W enclosed PSU,,AliExpress
+PS2,LDO 3.3V,MIC5219-3.3YM5,1,3.3V 500mA LDO for MCU,+125°C,DigiKey
+PCB,Polyimide PCB,Custom,1,Polyimide substrate 260°C Tg AuSn solder,,Specialist PCB fab
+SOLDER,AuSn 80/20,AuSn solder paste,1g,Melting point 280°C — high temp,280°C,Indium Corp
